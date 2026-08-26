@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>Clear Call</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Clear Call</h1>
+    <p class="subtitle">Speak normally. The person you call hears a clear voice.</p>
+
+    <label for="number">Number to call</label>
+    <input id="number" type="tel" placeholder="+1 555 555 5555" autocomplete="tel" />
+
+    <button id="callBtn">Call</button>
+    <button id="hangupBtn" class="secondary" disabled>Hang Up</button>
+
+    <div id="status" class="status">Not connected</div>
+    <div id="micLevel" class="mic-level"><div id="micLevelBar"></div></div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
