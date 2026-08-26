@@ -1,0 +1,17 @@
+{
+  "name": "accessible-call-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0",
+    "twilio": "^5.0.0",
+    "node-fetch": "^2.7.0",
+    "form-data": "^4.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
