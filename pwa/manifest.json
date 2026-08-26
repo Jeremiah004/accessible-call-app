@@ -1,0 +1,9 @@
+{
+  "name": "Clear Call",
+  "short_name": "ClearCall",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12141a",
+  "theme_color": "#12141a",
+  "icons": []
+}
